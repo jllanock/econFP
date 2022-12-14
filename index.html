@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+       
+    </head>
+    <body>
+         
+
+        <span class="header">
+            
+            <a href="#contexto">Contexto</a>
+            <a href="#modelos">Modelos</a>
+            <a href=""><img src="assets/vueltiao.png" alt=""></a>
+            <a href="#juego">Juego</a>
+            <a href="#criticas">Críticas</a>
+            
+        </span>
+        
+        <div class="hero">
+            <h1>
+                Los Colombianos Pensamos en Corto Plazo
+            </h1>
+            
+            <div class="stats">
+                <p>
+                    <span style="color: rgb(176, 150, 111);">15</span> brotes reportados de aftosa en 2017
+                    <br>
+                    <span style="color: rgb(24, 187, 40);">297</span>  animales sacrificados como medida preventiva
+                    <br>
+                    
+                    <span style="color: rgb(24, 187, 40);">136 </span>animales identificados con aftosa en 2017
+                    <br>
+                    <span style="color:rgb(176, 136, 111);">138.000 </span> toneladas de carne bovina exportada en 2022
+                    <br>
+                    <span style="color: rgb(176, 150, 111);">USD 500.000.000</span> en exportaciones de carne bovina en 2022 
+                    <br>
+                    <span style="color: rgb(176, 150, 111);">11% </span> de la carne consumida en Colombia es insalubre en 2018
+                </p>
+            </div>
+            
+        </div>
+        <hr>
+        
+        <p>Caso de Estudio: Los protocólos de higiene en la carne colombiana</p>
+
+        <div id="contexto"></div>
+        <p class="bodytext"> <span style="font-size: 40px;">E</span>n 2022 han vuelto los <span class="imp">mataderos municipales</span> despues de quince años. Así como lo ha dicho el presidente del gremio de los <span class="imp">frigoríficos</span>, Andrés Urrea, "es contradictorio con la idea de exportar carne, de proteger lo ambiental, de fortalecer la salubridad y el empleo" <span class="quote">(entdo. Semana)</span>. Esta propuesta, engendrada durante la administración Petro, pensamos que está fundamentada en un pensamiento de corto plazo; sus efectos podrían herir la calidad de vida de los colombianos, y dejar bastante dinero de exportaciones sobre la mesa. ¿Cómo puede el <a href="#modelos">modelo de escogencia individual</a>  y la <a href="#juego">teoría de juegos</a>  explicar el raciocinio de los legisladores, productores y compradores colombianos? </p>
+        <br>
+        <hr width="80%">
+        <p style="width: 80%; font-size: 20px; color: rgb(100, 63, 178);">What is your concern (Thesis): Un modelo de la venta y consumo de carnes certificadas e insalubres en Colombia que depende en las decisiones tomadas por los productores y consumidores en lo que respecta sus recursos monetarios y salud a medida que pasa el tiempo.</p>
+        <p class="bodyText">
+            Main variables:
+Dinero Restante,
+Salud,
+Tiempo
+<br>
+i. Why do these variables allow you to show a concern? 
+<br>
+<br>
+<span style="font-size: 40px;">E</span>ste modelo se centra en las decisiones de dos actores en la sociedad colombiana: Los productores y los consumidores de carne. A grandes rasgos, sus acciones frente a la situación planteada son determinadas por sus recursos económicos: cuánto están dispuestos a pagar en carne en corto plazo y en salud a largo plazo. De cierta manera estas dos variables están en oposición una de la otra, ya que para maximizar la cantidad de dinero restante, hay que disminuir la calidad de la salud (con respecto a la producción, compra y consumo de carne). Este conflicto también esta presente en la mente de todos los consumidores cuando deciden que tipo de carne comprar, y por lo tanto esas dos variables pueden demostrar la preocupación de que muchos valoran más los recursos economicos ante su propria salud. Ahí entra la tercera variable: tiempo. Más allá de solo demostrar una preocupación, esta variable nos permite comprobar el cambio el interés a medida que el tiempo pasa. Como mencionado anteriormente, muchos consumidores valoran más el dinero que su salud, ya que el dinero tiene efectos mucho más evidentes al corto plazo. Pero, si se avanza en el tiempo, los efectos de salud se pueden presenciar de manera mucho más grave que los efectos de los recursos economicos, y por lo tanto la mayoría de consumidores tiende a valorar más su salud a largo plazo. 
+En términos monetarios, los dos actores de está situación se enfrentan al problema de estrategia de corto plazo frente a una de largo plazo. Los consumidores deben decidir entre ahorrar en carne o ahorrar en salud. Los productores deben decidir si quieren maximizar sus ingresos en corto plazo mediante un costo de producción bajo y una clientela fija en el matadero de pueblo, o invertir a largo plazo para entrar al mercado de exportación, el cuál requiere de ciertos estándares de higiene. Tanto una buena salud, como los ingresos de exportaciones se demoran más tiempo en tomar efecto. Creemos que estas deberían ser las prioridades de los colombianos desde el principio, pero decisiones cómo la nueva ley de abolir los frigoríficos están fundamentadas en una estrategia de corto plazo.
+        </p>
+        <hr>
+        <div class="cols" style="display: grid; grid-template-columns: repeat(1,1fr);">
+            <div id="juego">
+                <p>Teoría de Juegos</p>
+                <br>
+                <br>
+               <div class="photos">
+                    <img src="assets/gmt1.png" alt="">
+                        <img src="assets/gmt2.png" alt="">
+                        <img src="assets/gmt3.png" alt="">
+               </div>
+                    
+               
+            </div>
+            <hr>
+            <div class="ICM">
+                <p>Escoge un Jugador</p>
+                <br>
+                <br>
+                <div class="botones" style="text-align: center;">
+
+                    <button onclick="myFunction()">Consumidor</button>
+                        <button onclick="myFunction1()">Productor</button>
+                        <br>
+                        <br>
+                    <span id="modelos"></span>
+                    <iframe src="EconGraphs.html" frameborder="100" style="width: 100%; height: 600px;" id="consumer"></iframe>
+                    <iframe src="EconGraphsProd.html" frameborder="100" style="width: 100%; height: 600px; display: none;" id="producer"></iframe>
+              </div>
+            </div>
+            
+        </div>
+       
+       <br>
+      
+       <br>
+       <hr>
+       <div id="criticas">
+        <h3 style="text-align: center;">Críticas</h3>
+            <p class="bodyText">
+                <ol>
+                    <li>Exhibit the assumptions of the Game Theory model relevant for your project and question its utility to mimic reality.  Justify such comparison between the social context and the assumptions of the model with and adequate use of the  basic concepts of the Game Theory Model. </li>
+                    <li>Provide a criticism of the Game Theory model by evaluating the usefulness of the assumptions to represent the social  phenomena under study. What does this model fail to comprehend that is of uttermost importance to understand your  concern? </li>
+                </ol>
+          
+
+
+
+<hr>
+            <p class="bodyText">
+                <ol>
+                    <li>Exhibit the assumptions of the Individual Choice model relevant for your project and question its utility to mimic reality. Justify such comparison between the social context and the assumptions of the model with and adequate use of the  basic concepts of the Individual Choice Model. </li>
+                    <li>Provide a criticism of the Individual Choice model by evaluating the usefulness of the assumptions to represent the  social phenomena under study. What does this model fail to comprehend that is of uttermost importance to understand your concern?</li>
+                </ol>
+            </p>
+       </div>
+       
+            
+      
+       
+    </body>
+
+    <script>
+
+        function myFunction() {
+            
+            var x = document.getElementById("consumer");
+            var y = document.getElementById("producer");
+
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "none";
+            } 
+            
+        }
+        function myFunction1() {
+            var x = document.getElementById("producer");
+            var y = document.getElementById("consumer");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "none";
+            } 
+        }
+
+   </script>
+</html>
